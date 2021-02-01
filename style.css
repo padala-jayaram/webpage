@@ -1,3 +1,4 @@
+
 .navbar{
     list-style-type:none;
     background-color:#ffd700;
@@ -56,15 +57,14 @@ a{
 }
 
 .social a.tw:hover {
-  background: #00acee
+  background: #00acee;
 }
 
 .social a.fb:hover {
-  background: #3b5998
+  background: #3b5998;
 }
-
-.social a.gp:hover {
-  background: #dd4b39
+.social a.ig:hover{
+    background:#dd4b39;
 }
 .icons-img{
     display:inline-block;
