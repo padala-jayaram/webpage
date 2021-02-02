@@ -11,8 +11,29 @@ a{
     padding-right:2px;
 }
 .carousel-inner .item img{
-        height:360px;
-        width:1200px;
+        height:420px;
+        width:1800px;
+}
+.overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:95%;
+    height:82%;
+    opacity:0;
+    transition: .5s ease;
+    background-color:#000000;
+}
+.thumbnail:hover .overlay{
+    opacity:0.7;
+}
+.overlay .glyphicon-search{
+    color:#ffa500;
+    font-size:24px;
+     margin-left:70px;
+    margin-top:70px;
 }
 .text-center{
     text-align:center;
@@ -20,15 +41,18 @@ a{
 .text-right{
     text-align:right;
 }
+h3{
+  padding-left:20%;  
+}
  .social {
   border-radius: 3px;
-  box-shadow: 0 1px 0 #000000 inset;
-  background: #ffffff;
-  border-color: #d1d1d1 #e7e7e7 #e4e4e4;
+  box-shadow: 0 1px 0 #ffd700 inset;
+  background: #ffd700;
+  border-color:#ffd700;
   border-radius: 3px;
   border-style: solid;
   border-width: 1px;
-  box-shadow: 0 1px 0 #e9e9e9 inset;
+  box-shadow: 0 1px 0 #ffd700 inset;
   float: left;
   list-style: none;
   padding: 15px 10px;
@@ -38,34 +62,33 @@ a{
 }
 
 .social li:first-child {
-  margin-top: 0
+  margin-top:0;
 }
 
 .social li {
-  margin-top:10px
+  margin-top:10px;
 }
 
 .social li a {
-  display: block;
-  background: #000000;
-  color: #ffffff;
+  display:block;
+  background:#000000;
+  color:#ffffff;
   border-radius:20px;
   text-decoration: none;
   line-height:40px;
   width:30px;
-  font-size: 18px;
+  ;
 }
 
 .social a.tw:hover {
-  background: #00acee;
+  background:#00acee;
 }
 
 .social a.fb:hover {
-  background: #3b5998;
+  background:#3b5998;
 }
 .social a.ig:hover{
     background:#dd4b39;
 }
-.icons-img{
-    display:inline-block;
-}    
+
+
