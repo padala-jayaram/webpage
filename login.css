@@ -10,8 +10,11 @@ a{
     padding-right:2px;
 }
 .jumbotron{
-    position:relative;
-    left:100%;
+    position:fixed;
+    left:10%;
+    top:15%;
+    bottom:25%;
+    min-height:320px;
 }
 .btn{
     background-color:#1544ec;
@@ -27,5 +30,6 @@ footer{
 .text-right{
     text-align:right;
 }
+
 
 
