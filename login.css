@@ -27,49 +27,5 @@ footer{
 .text-right{
     text-align:right;
 }
-.social {
-  border-radius: 3px;
-  box-shadow: 0 1px 0 #ffd700 inset;
-  background: #ffd700;
-  border-color:#ffd700;
-  border-style: solid;
-  border-width: 1px;
-  float: left;
-  list-style: none;
-  padding: 15px 10px;
-  position: relative;
-  text-align: center;
-  margin: 20px;
-}
-
-.social li:first-child {
-  margin-top: 0
-}
-
-.social li {
-  margin-top:10px
-}
-
-.social li a {
-  display:block;
-  background:#000000;
-  color:#ffffff;
-  border-radius:20px;
-  text-decoration: none;
-  line-height:40px;
-  width:30px;
-  ;
-}
-
-.social a.tw:hover {
-  background:#00acee;
-}
-
-.social a.fb:hover {
-  background:#3b5998;
-}
-.social a.ig:hover{
-    background:#dd4b39;
-}
 
 
